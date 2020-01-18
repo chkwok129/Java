@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Identify">
+   <children>
+      <Button fx:id="bt2" layoutX="464.0" layoutY="347.0" mnemonicParsing="false" onAction="#BackToPreviousMenu" text="Back" />
+      <Label layoutX="81.0" layoutY="14.0" text="Please choose the relationship that you wanna break apart.">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="242.0" text="Name1" />
+      <Label layoutX="181.0" layoutY="274.0" text="Name2" />
+      <Label layoutX="373.0" layoutY="274.0" text="Relationship" />
+      <TextField fx:id="FirstPeopleName" layoutX="57.0" layoutY="269.0" prefHeight="31.0" prefWidth="114.0" promptText="Name1" />
+      <TextField fx:id="SecondPeopleName" layoutX="235.0" layoutY="269.0" prefHeight="31.0" prefWidth="130.0" promptText="Name2" />
+      <TextField fx:id="TheirRelationship" layoutX="464.0" layoutY="269.0" prefHeight="31.0" prefWidth="124.0" promptText="Relationship" />
+      <Button fx:id="bt3" layoutX="149.0" layoutY="347.0" mnemonicParsing="false" onAction="#deleteButtonClicked" text="Delete" />
+      <Text fx:id="text" layoutX="227.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+      <TableView fx:id="tableRelation" layoutX="76.0" layoutY="52.0" prefHeight="200.0" prefWidth="466.0">
+        <columns>
+          <TableColumn fx:id="ColumnName1" prefWidth="145.60003662109375" text="NameOne" />
+          <TableColumn fx:id="ColumnName2" prefWidth="148.7999267578125" text="NameTWO" />
+            <TableColumn fx:id="ColumnRelationship" prefWidth="172.800048828125" text="Relationship" />
+        </columns>
+      </TableView>
+      <Text fx:id="text" layoutX="124.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="351.73675912618637" />
+      <Label layoutX="40.0" layoutY="313.0" text="Result" />
+   </children>
+</AnchorPane>
