@@ -1,0 +1,9 @@
+Alex Smith, 'AlexSmith.jpg', 'student at RMIT', M, 35, WA 
+Ben Turner, 'BenTurner.jpg', 'manager at ZFX', M, 45, VIC 
+Hannah White, 'HannahWhite.jpg', 'student at PLC', M, 12, VIC 
+Zoe Foster, 'ZoeFoster.jpg', 'Founder of ZFX', M, 33, VIC 
+Mary Turner, 'MaryTurner.jpg', 'looking for job', F, 2, VIC 
+John Smith, 'JohnSmith.jpg', 'student at PLC', M, 12, VIC 
+Mary Hopkin, 'MaryHopkin.jpg', 'House Worker', F, 38, TAS 
+Alex Turner, 'AlexTurner.jpg', 'student at Latrobe', M, 22, VIC 
+Klay Thomas, 'Klay Thomas.jpg', 'House Worker', F, 33, NSW 

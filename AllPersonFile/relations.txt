@@ -1,0 +1,11 @@
+Alex Smith, Ben Turner, friend 
+Ben Turner, Mary Hopkin, couple 
+Ben Turner, Mary Turner, parent 
+Mary Hopkin, Mary Turner, parent 
+Alex Turner, Mary Hopkin, parent 
+Alex Turner, Ben Turner, parent 
+Alex Smith, Klay Thomas, couple 
+Alex Turner, John Smith, friend 
+John Smith, Klay Thomasr, parent 
+Alex Smith, Zoe Foster, colleague 
+John Smith, Hannah White, classmate 
